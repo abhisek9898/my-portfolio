@@ -1,21 +1,8 @@
 .hero-img{
   width: 100%;
-  background: rgb(79, 198, 141);
-  height: 60vh;
+  background: rgba(76, 203, 210, 0.477);
+  height: 47vh;
   position: relative;
-}
-
-.hero-img::before{
-  content: "";
-  background: url("https://wallpapercave.com/wp/wp9109667.jpg");
-  background-size: cover;
-  background-position: center top;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .heading{
