@@ -29,13 +29,9 @@ const Footer = () => {
         <div className="right">
           <h4>Hi, I am Abhisek. Welcome to my Protfolio.</h4>
           <div className="social">
-          <a href="www.linkedin.com/in/abhisek-malla-387b19290" target="_blank" rel="noopener noreferrer">
-          <FaLinkedinIn size={25} 
-          style={{
-            color:"#0A66C2", 
-            marginRight:"2rem",
-            }}/>
-          </a>
+            <a href="http://www.linkedin.com/in/abhisek-malla-387b19290" target="_blank" rel="noopener noreferrer" title="Visit Abhisek Malla's LinkedIn profile">
+              <FaLinkedinIn size={25} style={{ color: "#0A66C2", marginRight: "1rem" }} />
+            </a>
           </div>
         </div>
       </div>
